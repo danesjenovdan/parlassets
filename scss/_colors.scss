@@ -3,55 +3,55 @@
 /////////////////////////////
 
 // gradient
-$first: #ff0000;
-$second: #caebf2;
-$third: #258498;
+$first: #6181c2;
+$second: #2c4c9d;
+$third: #f67070;
 
 // tabs
-$tab-active: $first;
-$tab-hover: #ff8888;
-$tab-passive: #ff5555;
+$tab-active: $second;
+$tab-hover: #869ed0;
+$tab-passive: $first;
 
 // links
-$link: $third;
-$link-hover-background: #f3fafc;
+$link: $second;
+$link-hover-background: #dce3f1;
 
 // card footer buttons
-$card-footer-button-passive-background: #ff5555;
+$card-footer-button-passive-background:$second;
 $card-footer-button-hover-background: $first;
 
 // scroller
-$scroller: #caebf2;
-$element: #258498;
+$scroller: #dce3f1;
+$element:$first;
 
 // barcharts
-$barchart-this: $first;
-$barchart-other: $third;
-$barchart-default: $third;
+$barchart-this: $third;
+$barchart-other: $first;
+$barchart-default: $first;
 
 // icons
 $icon-accepted: #4fbdd4;
-$icon-rejected: $first;
-$icon-session: $second;
-$icon-transcript: #258498;
-$icon-transcript-hover-background: #ceadf2;
+$icon-rejected: $third;
+$icon-session: $first;
+$icon-transcript: $second;
+$icon-transcript-hover-background: #dce3f1;
 
 
 // buttons
-$button-for: #4fbdd4;
-$button-against: #1b606f;
-$button-abstained: #afe1eb;
-$button-absent: #0b252b;
+$button-for: #5d7bc7;
+$button-against: #2d4d9e;
+$button-abstained: #aabff5;
+$button-absent: #171f36;
 
 // dropdown
 $dropdown-arrow: $first;
-$dropdown-selected-element: #ff8888;
+$dropdown-selected-element: #b7c5e3;
 
 // other
-$light-background: #fdf8f8;
-$light-background-link: #900900;
+$light-background: #dce3f1;
+$light-background-link: #2c4c9d;
 $tools-arrow: $first;
-$cta-passive-background: #ff5555;
+$cta-passive-background: $second;
 $cta-hover-background: $first;
 
 // common
@@ -68,15 +68,15 @@ $logo-second: $second; // TODO
 $logo-third: $font-default; // TODO
 
 // prisotnost skozi cas chart
-$time-presence-present-passive: #caebf2;
-$time-presence-present-active: #258498;
-$time-presence-absent-passive: #ffcbcb;
-$time-presence-absent-active: #ff5555;
+$time-presence-present-passive: #b7c5e3;
+$time-presence-present-active: $first;
+$time-presence-absent-passive: #fcd0d0;
+$time-presence-absent-active: $third;
 $time-presence-no-term-passive: $font-placeholder;
 $time-presence-no-term-active: $button-absent;
 
 // raba skozi cas chart
-$time-use-bar-active: #fbbfbb;
+$time-use-bar-active: $third;
 $time-use-bar-passive: $tab-hover;
 
 
