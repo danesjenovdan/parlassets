@@ -17,7 +17,7 @@
     bottom: 0;
     left: 0;
 
-    @include gradient('horizontal');
+    @include gradient('horizontal', true);
   }
   .gradient {
     position: absolute;

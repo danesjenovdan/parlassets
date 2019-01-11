@@ -87,7 +87,7 @@
 @supports ( -webkit-background-clip: text ) {
     #about .gradient-title {
 
-        @include gradient(horizontal);
+        @include gradient(horizontal, true);
 
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

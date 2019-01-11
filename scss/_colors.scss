@@ -3,56 +3,56 @@
 /////////////////////////////
 
 // gradient
-$first: #ff0000;
-$second: #caebf2;
-$third: #258498;
+$first: #c4a932;
+$second: #7786ea;
+$third: #162691;
 
 // tabs
 $tab-active: $first;
-$tab-hover: #ff8888;
-$tab-passive: #ff5555;
+$tab-hover: #dac057;
+$tab-passive: #a68d25;
 
 // links
 $link: $third;
-$link-hover-background: #f3fafc;
+$link-hover-background: #edeffc;
 
 // card footer buttons
-$card-footer-button-passive-background: #ff5555;
+$card-footer-button-passive-background: #a68d25;
 $card-footer-button-hover-background: $first;
 
 // scroller
-$scroller: #caebf2;
-$element: #258498;
+$scroller: #f2ebc9;
+$element: #a68d25;
 
 // barcharts
 $barchart-this: $first;
-$barchart-other: $third;
-$barchart-default: $third;
+$barchart-other: $second;
+$barchart-default: $second;
 
 // icons
-$icon-accepted: #4fbdd4;
+$icon-accepted: $third;
 $icon-rejected: $first;
-$icon-session: $second;
+$icon-session: $first;
 $icon-transcript: #258498;
 $icon-transcript-hover-background: #ceadf2;
 
 
 // buttons
-$button-for: #4fbdd4;
-$button-against: #1b606f;
-$button-abstained: #afe1eb;
-$button-absent: #0b252b;
+$button-for: $second;
+$button-against: #1f35cc;
+$button-abstained: #cfd5f8;
+$button-absent: #0b1347;
 
 // dropdown
 $dropdown-arrow: $first;
-$dropdown-selected-element: #ff8888;
+$dropdown-selected-element: #f2ebc9;
 
 // other
-$light-background: #fdf8f8;
-$light-background-link: #900900;
-$cta-passive-background: #ff5555;
-$cta-hover-background: $first;
-$tools-arrow: $cta-passive-background;
+$light-background: #fcf9f0;
+$light-background-link: $third;
+$cta-passive-background: $second;
+$cta-hover-background: $third;
+$tools-arrow: $first;
 
 // common
 $white: #ffffff;
@@ -68,12 +68,12 @@ $logo-second: $second; // TODO
 $logo-third: $font-default; // TODO
 
 // prisotnost skozi cas chart
-$time-presence-present-passive: #caebf2;
-$time-presence-present-active: #258498;
-$time-presence-absent-passive: #ffcbcb;
-$time-presence-absent-active: #ff5555;
+$time-presence-present-passive: lighten($first, 30%);
+$time-presence-present-active: $first;
+$time-presence-absent-passive: $second;
+$time-presence-absent-active: $third;
 $time-presence-no-term-passive: $font-placeholder;
-$time-presence-no-term-active: $button-absent;
+$time-presence-no-term-active: $font-default;
 
 // raba skozi cas chart
 $time-use-bar-active: #fbbfbb;
