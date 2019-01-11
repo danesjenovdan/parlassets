@@ -437,7 +437,7 @@ footer.footer {
   height: 40px;
   width: 100%;
   overflow: hidden;
-  @include gradient('horizontal');
+  @include gradient('horizontal', true);
 
   @include respond-to(mobile) {
     height: 20px;
