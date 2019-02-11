@@ -50,9 +50,9 @@ $dropdown-selected-element: #b7c5e3;
 // other
 $light-background: #dce3f1;
 $light-background-link: #2c4c9d;
-$tools-arrow: $first;
 $cta-passive-background: $second;
 $cta-hover-background: $first;
+$tools-arrow: $cta-passive-background;
 
 // common
 $white: #ffffff;
