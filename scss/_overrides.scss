@@ -6,3 +6,11 @@
     opacity: 0;
   }
 }
+
+.legislation-list {
+  .column {
+    &:first-child {
+      flex: 2.4;
+    }
+  }
+}
