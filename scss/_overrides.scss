@@ -14,3 +14,9 @@
     }
   }
 }
+
+.session-logo {
+  &.law-logo {
+      background-color: $first;
+  }
+}
