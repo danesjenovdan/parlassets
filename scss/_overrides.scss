@@ -20,3 +20,19 @@
       background-color: $first;
   }
 }
+
+// IZPOSTAVLJENA ZAKONODAJA ICONS COLOR OVERRIDE; https://codepen.io/sosuke/pen/Pjoqqp
+.legislation__wrapper:nth-child(3n) .icon .circle.img-circle img {
+  // #162691
+  filter: #{"brightness(0) saturate(100%) invert(10%) sepia(83%) saturate(4023%) hue-rotate(235deg) brightness(92%) contrast(100%)"};
+}
+
+.legislation__wrapper:nth-child(3n+1) .icon .circle.img-circle img {
+  // #7786ea
+  filter: #{"brightness(0) saturate(100%) invert(59%) sepia(63%) saturate(2068%) hue-rotate(203deg) brightness(90%) contrast(104%)"};
+}
+
+.legislation__wrapper:nth-child(3n+2) .icon .circle.img-circle img {
+  // #c4a932
+  filter: #{"brightness(0) saturate(100%) invert(64%) sepia(90%) saturate(359%) hue-rotate(9deg) brightness(90%) contrast(85%)"};
+}
