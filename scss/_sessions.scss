@@ -482,15 +482,18 @@
     .border-left {
         border-left: 2px solid $font-placeholder;
     }
-    .accepted {
+    .accepted,
+    .passed {
         text-align: center;
         line-height: 100px;
         font-size: 24px;
     }
-    .accepted.aye {
+    .accepted.aye,
+    .passed.aye {
         color: $icon-accepted;
     }
-    .accepted.nay {
+    .accepted.nay,
+    .passed.nay {
         color: $icon-rejected;
     }
     .session_votes {
