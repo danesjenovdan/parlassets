@@ -7,7 +7,7 @@ const PARLASITE_URL = process.env.VITE_PARLASITE_URL || 'https://parlasite.lb.dj
 
 const config = {
   urls: {
-    cdn: isProd ? PARLASSETS_URL : 'http://localhost:8080',
+    cdn: isProd ? '' : 'http://localhost:8080',
     analize: PARLADATA_URL,
     data: PARLADATA_URL,
     isci: 'https://isci.parlameter.si', // TODO
